@@ -1,0 +1,107 @@
+%makemol: Reading control file "test-convert.ctrl"
+root= makemol
+command =  makemol
+command =  set
+%makemol.set_param: title = Test Format conversion
+command =  set
+%makemol.set_param: reportlevel = 3
+command =  readMOL
+%readmol: Reading the input file "SrFe12O19.msml"
+<unitcell> tag found.
+<elementlist> tag found.
+<atomlist> tag found.
+%Molecule: finalizing molecule
+%unitcell: fractional to cartesian transformation matrix:
+[[  2.96428384   2.96428384   0.        ]
+ [ -5.13429015   5.13429015   0.        ]
+ [  0.           0.          23.21491967]]
+%unitcell: cartesian to fractional transformation matrix:
+[[ 0.16867481 -0.09738445  0.        ]
+ [ 0.16867481  0.09738445  0.        ]
+ [ 0.          0.          0.04307575]]
+%readmol: resultant molecule
+ID: mol0
+Name: Sr-hexaferrite (SrFe12O19)
+Unitlength: angstrom
+Unitcell:
+  type = general
+  lattice parameter = 1.0
+  periodic = [ True  True  True]
+  axis[a1] = [ 2.96428384  2.96428384  0.        ]
+  axis[a2] = [-5.13429015  5.13429015  0.        ]
+  axis[a3] = [  0.           0.          23.21491967]
+Elements: 3
+Element: 0  name = Strontium  symbol = Sr  number = 38  weight = 87.62
+Element: 1  name = Iron  symbol = Fe  number = 26  weight = 55.85
+Element: 2  name = Oxygen  symbol = O  number = 8  weight = 16.0
+Atomcoord: fractional
+Atoms: 64
+Atom: # 1  element = Sr  name = Sr-2d  fpos = [ 0.333333  0.666667  0.75    ]
+Atom: # 2  element = Sr  name = Sr-2d  fpos = [ 0.666667  0.333333  0.25    ]
+Atom: # 3  element = Fe  name = Fe-2a  fpos = [ 0.  0.  0.]
+Atom: # 4  element = Fe  name = Fe-2a  fpos = [ 0.   0.   0.5]
+Atom: # 5  element = Fe  name = Fe-2b  fpos = [ 0.    0.    0.25]
+Atom: # 6  element = Fe  name = Fe-2b  fpos = [ 0.    0.    0.75]
+Atom: # 7  element = Fe  name = Fe-4f1  fpos = [ 0.333333    0.666667    0.02680849]
+Atom: # 8  element = Fe  name = Fe-4f1  fpos = [ 0.666667    0.333333    0.52680849]
+Atom: # 9  element = Fe  name = Fe-4f1  fpos = [ 0.666667    0.333333    0.97319151]
+Atom: # 10  element = Fe  name = Fe-4f1  fpos = [ 0.333333    0.666667    0.47319151]
+Atom: # 11  element = Fe  name = Fe-4f2  fpos = [ 0.333333    0.666667    0.19075323]
+Atom: # 12  element = Fe  name = Fe-4f2  fpos = [ 0.666667    0.333333    0.69075323]
+Atom: # 13  element = Fe  name = Fe-4f2  fpos = [ 0.666667    0.333333    0.80924677]
+Atom: # 14  element = Fe  name = Fe-4f2  fpos = [ 0.333333    0.666667    0.30924677]
+Atom: # 15  element = Fe  name = Fe-12k  fpos = [ 0.16887543  0.33775087  0.8909938 ]
+Atom: # 16  element = Fe  name = Fe-12k  fpos = [ 0.66224913  0.83112457  0.8909938 ]
+Atom: # 17  element = Fe  name = Fe-12k  fpos = [ 0.16887543  0.83112457  0.8909938 ]
+Atom: # 18  element = Fe  name = Fe-12k  fpos = [ 0.83112457  0.66224913  0.3909938 ]
+Atom: # 19  element = Fe  name = Fe-12k  fpos = [ 0.33775087  0.16887543  0.3909938 ]
+Atom: # 20  element = Fe  name = Fe-12k  fpos = [ 0.83112457  0.16887543  0.3909938 ]
+Atom: # 21  element = Fe  name = Fe-12k  fpos = [ 0.33775087  0.16887543  0.1090062 ]
+Atom: # 22  element = Fe  name = Fe-12k  fpos = [ 0.83112457  0.66224913  0.1090062 ]
+Atom: # 23  element = Fe  name = Fe-12k  fpos = [ 0.83112457  0.16887543  0.1090062 ]
+Atom: # 24  element = Fe  name = Fe-12k  fpos = [ 0.66224913  0.83112457  0.6090062 ]
+Atom: # 25  element = Fe  name = Fe-12k  fpos = [ 0.16887543  0.33775087  0.6090062 ]
+Atom: # 26  element = Fe  name = Fe-12k  fpos = [ 0.16887543  0.83112457  0.6090062 ]
+Atom: # 27  element = O  name = O-4e  fpos = [ 0.          0.          0.15190783]
+Atom: # 28  element = O  name = O-4e  fpos = [ 0.          0.          0.65190783]
+Atom: # 29  element = O  name = O-4e  fpos = [ 0.          0.          0.84809217]
+Atom: # 30  element = O  name = O-4e  fpos = [ 0.          0.          0.34809217]
+Atom: # 31  element = O  name = O-4f  fpos = [ 0.333333    0.666667    0.94450899]
+Atom: # 32  element = O  name = O-4f  fpos = [ 0.666667    0.333333    0.44450899]
+Atom: # 33  element = O  name = O-4f  fpos = [ 0.666667    0.333333    0.05549101]
+Atom: # 34  element = O  name = O-4f  fpos = [ 0.333333    0.666667    0.55549101]
+Atom: # 35  element = O  name = O-6h  fpos = [ 0.18155525  0.36311049  0.25      ]
+Atom: # 36  element = O  name = O-6h  fpos = [ 0.63688951  0.81844475  0.25      ]
+Atom: # 37  element = O  name = O-6h  fpos = [ 0.18155525  0.81844475  0.25      ]
+Atom: # 38  element = O  name = O-6h  fpos = [ 0.81844475  0.63688951  0.75      ]
+Atom: # 39  element = O  name = O-6h  fpos = [ 0.36311049  0.18155525  0.75      ]
+Atom: # 40  element = O  name = O-6h  fpos = [ 0.81844475  0.18155525  0.75      ]
+Atom: # 41  element = O  name = O-12k1  fpos = [ 0.15726611  0.31453222  0.05240656]
+Atom: # 42  element = O  name = O-12k1  fpos = [ 0.68546778  0.84273389  0.05240656]
+Atom: # 43  element = O  name = O-12k1  fpos = [ 0.15726611  0.84273389  0.05240656]
+Atom: # 44  element = O  name = O-12k1  fpos = [ 0.84273389  0.68546778  0.55240656]
+Atom: # 45  element = O  name = O-12k1  fpos = [ 0.31453222  0.15726611  0.55240656]
+Atom: # 46  element = O  name = O-12k1  fpos = [ 0.84273389  0.15726611  0.55240656]
+Atom: # 47  element = O  name = O-12k1  fpos = [ 0.31453222  0.15726611  0.94759344]
+Atom: # 48  element = O  name = O-12k1  fpos = [ 0.84273389  0.68546778  0.94759344]
+Atom: # 49  element = O  name = O-12k1  fpos = [ 0.84273389  0.15726611  0.94759344]
+Atom: # 50  element = O  name = O-12k1  fpos = [ 0.68546778  0.84273389  0.44759344]
+Atom: # 51  element = O  name = O-12k1  fpos = [ 0.15726611  0.31453222  0.44759344]
+Atom: # 52  element = O  name = O-12k1  fpos = [ 0.15726611  0.84273389  0.44759344]
+Atom: # 53  element = O  name = O-12k2  fpos = [ 0.50408394  0.00816787  0.15148769]
+Atom: # 54  element = O  name = O-12k2  fpos = [ 0.99183213  0.49591606  0.15148769]
+Atom: # 55  element = O  name = O-12k2  fpos = [ 0.50408394  0.49591606  0.15148769]
+Atom: # 56  element = O  name = O-12k2  fpos = [ 0.49591606  0.99183213  0.65148769]
+Atom: # 57  element = O  name = O-12k2  fpos = [ 0.00816787  0.50408394  0.65148769]
+Atom: # 58  element = O  name = O-12k2  fpos = [ 0.49591606  0.50408394  0.65148769]
+Atom: # 59  element = O  name = O-12k2  fpos = [ 0.00816787  0.50408394  0.84851231]
+Atom: # 60  element = O  name = O-12k2  fpos = [ 0.49591606  0.99183213  0.84851231]
+Atom: # 61  element = O  name = O-12k2  fpos = [ 0.49591606  0.50408394  0.84851231]
+Atom: # 62  element = O  name = O-12k2  fpos = [ 0.99183213  0.49591606  0.34851231]
+Atom: # 63  element = O  name = O-12k2  fpos = [ 0.50408394  0.00816787  0.34851231]
+Atom: # 64  element = O  name = O-12k2  fpos = [ 0.50408394  0.49591606  0.34851231]
+command =  writeMOL
+%makemol: Writing output file "SrFe12O19-car.msml"
+command =  writeMOL
+%makemol: Writing output file "SrFe12O19-car.poscar"
+%makemol: END

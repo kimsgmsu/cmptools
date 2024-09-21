@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test 01" />
+  <set reportlevel = "5" />
+
+  <!-- Read input molecule -->
+  <readMOL file="SrFe12O19.msml" format="msml" result="mol0" />
+
+  <applySYMOP mol="mol0" op="-y,x-y,z" result="mol1" />
+
+  <diffMOL mol0="mol0" mol1="mol1" />
+
+  <!-- 
+  <checkSym group="194" />
+  -->
+
+</makemol>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name>benzene example</name>
+  <info></info>
+  <lattice method="vectors">
+    <pbc value="True True True" />
+    <scale value="1.0 1.0 1.0" />
+    <axis name="a1" vector="  24.313320    0.000000    0.000000" />
+    <axis name="a2" vector="   0.000000   24.980580    0.000000" />
+    <axis name="a3" vector="   0.000000    0.000000   20.000000" />
+  </lattice>
+  <elementList>
+    <element symbol="Ca" radius="0.7" mass="12.0107" info="" />
+    <element symbol="H" radius="0.25" mass="1.00794" info="" />
+  </elementList>
+  <atomList coord="cart" >
+    <atom indx="1" symbol="Ca" pos="  12.156660   13.893000   10.000000" info="" />
+    <atom indx="2" symbol="Ca" pos="  10.941869   13.191645   10.000000" info="" />
+    <atom indx="3" symbol="Ca" pos="  10.941869   11.788935   10.000000" info="" />
+    <atom indx="4" symbol="Ca" pos="  12.156660   11.087580   10.000000" info="" />
+    <atom indx="5" symbol="Ca" pos="  13.371451   11.788935   10.000000" info="" />
+    <atom indx="6" symbol="Ca" pos="  13.371451   13.191645   10.000000" info="" />
+    <atom indx="7" symbol="H" pos="  12.156660   14.980579   10.000000" info="" />
+    <atom indx="8" symbol="H" pos="   9.999996   13.735447   10.000000" info="" />
+    <atom indx="9" symbol="H" pos="   9.999996   11.245133   10.000000" info="" />
+    <atom indx="10" symbol="H" pos="  12.156660   10.000001   10.000000" info="" />
+    <atom indx="11" symbol="H" pos="  14.313324   11.245133   10.000000" info="" />
+    <atom indx="12" symbol="H" pos="  14.313324   13.735447   10.000000" info="" />
+  </atomList>
+</molecule>

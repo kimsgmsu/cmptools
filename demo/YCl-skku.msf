@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name>YCl-SKKU</name>
+  <info></info>
+  <lattice method="parameters">
+    <scale value="9.680" />
+    <lengths vector="1.0 1.0 1.0" />
+    <angles vector="22.428 22.428 22.428" />
+  </lattice>
+  <elementList>
+    <element symbol="Y" radius="1.0" mass="1.0" info="" />
+    <element symbol="Cl" radius="1.0" mass="1.0" info="" />
+    <element symbol="X" radius="1.0" mass="1.0" info="" />
+  </elementList>
+  <atomList coord="frac" >
+    <atom indx="1" symbol="Y" pos="0.2164 0.2164 0.2164" info="Y1" />
+    <atom indx="2" symbol="Y" pos="0.7836 0.7836 0.7836" info="Y2" />
+    <atom indx="3" symbol="Cl" pos="0.3892 0.3892 0.3892" info="Cl1" />
+    <atom indx="4" symbol="Cl" pos="0.6108 0.6108 0.6108" info="Cl2" />
+  </atomList>
+</molecule>

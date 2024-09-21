@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test molecule replication" />
+  <set reportlevel = "3" />
+
+  <!-- Read input molecule -->
+  <readMol file="Hf2S-alpha.poscar" format="vasp" result="mol0" />
+
+  <!-- Replicate the molecule -->
+  <replicateMol mol="mol0" nrep="[3, 2, 1]" result="mol1" />
+
+  <!-- Write output structure -->
+  <writeMol mol="mol1" file="Hf2S-3x2.msf" format="msf" coord="frac" />
+
+</makemol>

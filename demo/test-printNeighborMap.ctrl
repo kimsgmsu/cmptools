@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test Neighbor Map" />
+  <set reportlevel = "3" />
+
+  <!-- Read input molecule -->
+  <readMol file="Gd2C-rhom.msf" format="msf" result="mol0" />
+
+  <!-- Print neighbor map -->
+  <printNeighborMap mol="mol0" cutoff="3.5" padding="[3,3,3]" 
+	onlyatoms="[]" tolerance="1.0e-4" />
+
+</makemol>

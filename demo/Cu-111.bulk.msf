@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name>Cu(111).bulk</name>
+  <info></info>
+  <lattice method="vectors">
+    <scale value="1.0" />
+    <axis name="a1" vector="5.121239 0.000000 0.000000" />
+    <axis name="a2" vector="2.560620 4.435123 0.000000" />
+    <axis name="a3" vector="0.000000 0.000000 6.272212" />
+  </lattice>
+  <elementList>
+    <element symbol="Cu" radius="1.28" mass="63.546" info="" />
+  </elementList>
+  <atomList coord="frac" >
+    <atom indx="1" symbol="Ca" pos="0.000000 0.000000 0.000000" info="" />
+    <atom indx="2" symbol="Ca" pos="-0.500000 0.500000 0.000000" info="" />
+    <atom indx="3" symbol="Ca" pos="-0.000000 0.500000 0.000000" info="" />
+    <atom indx="4" symbol="Ca" pos="-0.500000 0.000000 0.000000" info="" />
+    <atom indx="5" symbol="Cb" pos="-0.333333 -0.333333 0.333333" info="" />
+    <atom indx="6" symbol="Cb" pos="0.166667 0.166667 0.333333" info="" />
+    <atom indx="7" symbol="Cb" pos="-0.333333 0.166667 0.333333" info="" />
+    <atom indx="8" symbol="Cb" pos="0.166667 -0.333333 0.333333" info="" />
+    <atom indx="9" symbol="Cc" pos="0.333333 0.333333 0.666667" info="" />
+    <atom indx="10" symbol="Cc" pos="-0.166667 -0.166667 0.666667" info="" />
+    <atom indx="11" symbol="Cc" pos="0.333333 -0.166667 0.666667" info="" />
+    <atom indx="12" symbol="Cc" pos="-0.166667 0.333333 0.666667" info="" />
+  </atomList>
+</molecule>

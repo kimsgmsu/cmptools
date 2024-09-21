@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+<structure>
+  <name>test1</name>
+  <info></info>
+  <lattice>
+    <scale value="1.0" />
+    <axis name="a1" vector="1.000000 2.000000 0.000000" />
+    <axis name="a2" vector="1.000000 -3.000000 0.500000" />
+    <axis name="a3" vector="0.100000 0.300000 2.500000" />
+  </lattice>
+  <atomtypeList>
+    <atomtype name="Gd" radius="1.0" mass="1.0" info="" />
+    <atomtype name="C" radius="1.0" mass="1.0" info="" />
+    <atomtype name="X" radius="1.0" mass="1.0" info="" />
+  </atomtypeList>
+  <atomList coord="frac" >
+    <atom id="1" type="Gd" pos="1.000000 0.000000 0.000000" sdyn="T T F" info="Gd1" />
+    <atom id="2" type="Gd" pos="0.000000 1.000000 0.000000" sdyn="F T T" info="Gd2" />
+    <atom id="3" type="Gd" pos="0.000000 0.000000 1.000000" info="Gd3" />
+    <atom id="4" type="C" pos="1.000000 1.000000 1.000000" sdyn="F F F" info="C1" />
+    <atom id="5" type="C" pos="1.000000 2.000000 0.000000" info="C2" />
+    <atom id="6" type="X" pos="0.000000 1.000000 2.000000" sdyn="F T F" info="IAE" />
+  </atomList>
+</structure>
+</molecule>

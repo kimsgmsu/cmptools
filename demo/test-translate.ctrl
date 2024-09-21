@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test translation of atoms" />
+  <set verbose = "3" />
+
+  <!-- Read input molecule -->
+  <read file="Hf2S-3x2.msf" format="msf" mol="mol0" />
+
+  <!-- Translate atoms -->
+  <select action="add" mol="mol0" atoms="{1, 3, 8, 10}" sel="sel1" />
+  <select action="report" sel="sel1" />
+  <translate mol="mol0" sel="sel1" vec="[0.0, 0.0, 1.0]" coord="cart" />
+
+  <!-- Write output structure -->
+  <write mol="mol0" file="new.msf" format="msf" coord="frac" />
+
+</makemol>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name>Hf2 S1</name>
+  <info></info>
+  <lattice method="vectors">
+    <scale value="1.0" />
+    <axis name="a1" vector="10.120800 0.000000 0.000000" />
+    <axis name="a2" vector="-1.686800 2.921623 0.000000" />
+    <axis name="a3" vector="0.000000 0.000000 23.576400" />
+  </lattice>
+  <elementList>
+    <element symbol="Hf" radius="1.0" mass="1.0" info="" />
+    <element symbol="S" radius="1.0" mass="1.0" info="" />
+  </elementList>
+  <atomList coord="frac" >
+    <atom indx="1" symbol="Hf" pos="0.111111 0.666667 0.092765" info="1 Hf Hf1" />
+    <atom indx="2" symbol="Hf" pos="0.222222 0.333333 0.449650" info="2 Hf Hf2" />
+    <atom indx="3" symbol="Hf" pos="0.222222 0.333333 0.342765" info="3 Hf Hf3" />
+    <atom indx="4" symbol="Hf" pos="0.111111 0.666667 0.199650" info="4 Hf Hf4" />
+    <atom indx="5" symbol="S" pos="0.000000 0.000000 0.125000" info="5 S S1" />
+    <atom indx="6" symbol="S" pos="0.000000 0.000000 0.375000" info="6 S S2" />
+    <atom indx="7" symbol="Hf" pos="0.111111 0.666667 0.550350" info="1 Hf Hf1" />
+    <atom indx="8" symbol="Hf" pos="0.222222 0.333333 0.992065" info="2 Hf Hf2" />
+    <atom indx="9" symbol="Hf" pos="0.222222 0.333333 0.800350" info="3 Hf Hf3" />
+    <atom indx="10" symbol="Hf" pos="0.111111 0.666667 0.742065" info="4 Hf Hf4" />
+    <atom indx="11" symbol="S" pos="0.000000 0.000000 0.625000" info="5 S S1" />
+    <atom indx="12" symbol="S" pos="0.000000 0.000000 0.875000" info="6 S S2" />
+    <atom indx="13" symbol="Hf" pos="0.444444 0.666667 0.050350" info="1 Hf Hf1" />
+    <atom indx="14" symbol="Hf" pos="0.555556 0.333333 0.449650" info="2 Hf Hf2" />
+    <atom indx="15" symbol="Hf" pos="0.555556 0.333333 0.300350" info="3 Hf Hf3" />
+    <atom indx="16" symbol="Hf" pos="0.444444 0.666667 0.199650" info="4 Hf Hf4" />
+    <atom indx="17" symbol="S" pos="0.333333 0.000000 0.125000" info="5 S S1" />
+    <atom indx="18" symbol="S" pos="0.333333 0.000000 0.375000" info="6 S S2" />
+    <atom indx="19" symbol="Hf" pos="0.444444 0.666667 0.550350" info="1 Hf Hf1" />
+    <atom indx="20" symbol="Hf" pos="0.555556 0.333333 0.949650" info="2 Hf Hf2" />
+    <atom indx="21" symbol="Hf" pos="0.555556 0.333333 0.800350" info="3 Hf Hf3" />
+    <atom indx="22" symbol="Hf" pos="0.444444 0.666667 0.699650" info="4 Hf Hf4" />
+    <atom indx="23" symbol="S" pos="0.333333 0.000000 0.625000" info="5 S S1" />
+    <atom indx="24" symbol="S" pos="0.333333 0.000000 0.875000" info="6 S S2" />
+    <atom indx="25" symbol="Hf" pos="0.777778 0.666667 0.050350" info="1 Hf Hf1" />
+    <atom indx="26" symbol="Hf" pos="0.888889 0.333333 0.449650" info="2 Hf Hf2" />
+    <atom indx="27" symbol="Hf" pos="0.888889 0.333333 0.300350" info="3 Hf Hf3" />
+    <atom indx="28" symbol="Hf" pos="0.777778 0.666667 0.199650" info="4 Hf Hf4" />
+    <atom indx="29" symbol="S" pos="0.666667 0.000000 0.125000" info="5 S S1" />
+    <atom indx="30" symbol="S" pos="0.666667 0.000000 0.375000" info="6 S S2" />
+    <atom indx="31" symbol="Hf" pos="0.777778 0.666667 0.550350" info="1 Hf Hf1" />
+    <atom indx="32" symbol="Hf" pos="0.888889 0.333333 0.949650" info="2 Hf Hf2" />
+    <atom indx="33" symbol="Hf" pos="0.888889 0.333333 0.800350" info="3 Hf Hf3" />
+    <atom indx="34" symbol="Hf" pos="0.777778 0.666667 0.699650" info="4 Hf Hf4" />
+    <atom indx="35" symbol="S" pos="0.666667 0.000000 0.625000" info="5 S S1" />
+    <atom indx="36" symbol="S" pos="0.666667 0.000000 0.875000" info="6 S S2" />
+  </atomList>
+</molecule>

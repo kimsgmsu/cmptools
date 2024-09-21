@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test totation and translation of atoms" />
+  <set verbose = "3" />
+
+  <!-- Read input molecule -->
+  <read file="Hf2S-3x2.msf" format="msf" mol="mol0" />
+
+  <!--  -->
+  <select action="add" atoms="{1, 2, 3}" sel="sel1" />
+  <rotate sel="sel1" matrix="[[0.0, 0.0, 1.0], [0.0, 1.0, 0.0], [1.0, 0.0, 0.0]]" />
+
+  <!-- Write output structure -->
+  <write file="new.msf" format="msf" coord="frac" />
+
+</makemol>

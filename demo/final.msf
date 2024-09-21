@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name>Buckyball</name>
+  <info></info>
+  <lattice method="vectors">
+    <pbc value="True" />
+    <scale value="[1.0 1.0 1.0]" />
+    <axis name="a1" vector="  30.000000    0.000000    0.000000" />
+    <axis name="a2" vector="   0.000000   30.000000    0.000000" />
+    <axis name="a3" vector="   0.000000    0.000000   30.000000" />
+  </lattice>
+  <elementList>
+    <element symbol="C" radius="0.7" mass="12.0107" info="" />
+    <element symbol="Ca" radius="1.8" mass="40.078" info="" />
+    <element symbol="H" radius="0.25" mass="1.00794" info="" />
+  </elementList>
+  <atomList coord="frac" >
+    <atom id="1" symbol="C" pos="   0.572292    0.519494    0.586528" info="" />
+    <atom id="2" symbol="C" pos="   0.542695    0.489480    0.605878" info="" />
+    <atom id="3" symbol="C" pos="   0.485432    0.544897    0.604518" info="" />
+    <atom id="4" symbol="C" pos="   0.514619    0.575201    0.585421" info="" />
+    <atom id="5" symbol="C" pos="   0.499089    0.501917    0.614878" info="" />
+    <atom id="6" symbol="C" pos="   0.558215    0.562440    0.576381" info="" />
+    <atom id="7" symbol="C" pos="   0.578472    0.575394    0.536914" info="" />
+    <atom id="8" symbol="C" pos="   0.491299    0.600700    0.554701" info="" />
+    <atom id="9" symbol="C" pos="   0.511322    0.613321    0.514858" info="" />
+    <atom id="10" symbol="C" pos="   0.555129    0.600734    0.505971" info="" />
+    <atom id="11" symbol="C" pos="   0.430399    0.472390    0.586798" info="" />
+    <atom id="12" symbol="C" pos="   0.416372    0.515354    0.576461" info="" />
+    <atom id="13" symbol="C" pos="   0.471912    0.465634    0.606074" info="" />
+    <atom id="14" symbol="C" pos="   0.443829    0.551584    0.585321" info="" />
+    <atom id="15" symbol="C" pos="   0.447265    0.586000    0.554678" info="" />
+    <atom id="16" symbol="C" pos="   0.392362    0.513344    0.536971" info="" />
+    <atom id="17" symbol="C" pos="   0.395985    0.547840    0.506101" info="" />
+    <atom id="18" symbol="C" pos="   0.423585    0.584110    0.514944" info="" />
+    <atom id="19" symbol="C" pos="   0.483715    0.402697    0.558164" info="" />
+    <atom id="20" symbol="C" pos="   0.441975    0.409394    0.539071" info="" />
+    <atom id="21" symbol="C" pos="   0.498765    0.430860    0.591791" info="" />
+    <atom id="22" symbol="C" pos="   0.415122    0.444307    0.553421" info="" />
+    <atom id="23" symbol="C" pos="   0.391402    0.469337    0.522618" info="" />
+    <atom id="24" symbol="C" pos="   0.444932    0.399604    0.493958" info="" />
+    <atom id="25" symbol="C" pos="   0.421602    0.425011    0.463048" info="" />
+    <atom id="26" symbol="C" pos="   0.394599    0.459977    0.477354" info="" />
+    <atom id="27" symbol="C" pos="   0.571289    0.431297    0.558141" info="" />
+    <atom id="28" symbol="C" pos="   0.556392    0.403110    0.524591" info="" />
+    <atom id="29" symbol="C" pos="   0.542692    0.445254    0.591731" info="" />
+    <atom id="30" symbol="C" pos="   0.512335    0.388717    0.524621" info="" />
+    <atom id="31" symbol="C" pos="   0.488609    0.386794    0.484968" info="" />
+    <atom id="32" symbol="C" pos="   0.576372    0.415641    0.484814" info="" />
+    <atom id="33" symbol="C" pos="   0.552709    0.414081    0.445014" info="" />
+    <atom id="34" symbol="C" pos="   0.508609    0.399627    0.445178" info="" />
+    <atom id="35" symbol="C" pos="   0.427315    0.480530    0.413684" info="" />
+    <atom id="36" symbol="C" pos="   0.441809    0.437494    0.423338" info="" />
+    <atom id="37" symbol="C" pos="   0.485459    0.424911    0.414131" info="" />
+    <atom id="38" symbol="C" pos="   0.457359    0.510437    0.394711" info="" />
+    <atom id="39" symbol="C" pos="   0.428322    0.568291    0.442354" info="" />
+    <atom id="40" symbol="C" pos="   0.398459    0.538257    0.460911" info="" />
+    <atom id="41" symbol="C" pos="   0.397889    0.494377    0.446591" info="" />
+    <atom id="42" symbol="C" pos="   0.457872    0.554497    0.409378" info="" />
+    <atom id="43" symbol="C" pos="   0.516872    0.597677    0.442221" info="" />
+    <atom id="44" symbol="C" pos="   0.487449    0.611677    0.475238" info="" />
+    <atom id="45" symbol="C" pos="   0.443599    0.597094    0.475311" info="" />
+    <atom id="46" symbol="C" pos="   0.501812    0.568907    0.409098" info="" />
+    <atom id="47" symbol="C" pos="   0.569995    0.527607    0.413444" info="" />
+    <atom id="48" symbol="C" pos="   0.585132    0.556217    0.446591" info="" />
+    <atom id="49" symbol="C" pos="   0.558705    0.591314    0.460868" info="" />
+    <atom id="50" symbol="C" pos="   0.528142    0.533827    0.394328" info="" />
+    <atom id="51" symbol="C" pos="   0.514945    0.454824    0.394744" info="" />
+    <atom id="52" symbol="C" pos="   0.556685    0.448190    0.413921" info="" />
+    <atom id="53" symbol="C" pos="   0.584022    0.484397    0.423044" info="" />
+    <atom id="54" symbol="C" pos="   0.500802    0.497657    0.384998" info="" />
+    <atom id="55" symbol="Ca" pos="   0.605085    0.540161    0.522554" info="" />
+    <atom id="56" symbol="Ca" pos="   0.601335    0.505694    0.553341" info="" />
+    <atom id="57" symbol="Ca" pos="   0.600469    0.461694    0.539128" info="" />
+    <atom id="58" symbol="Ca" pos="   0.603352    0.452160    0.494128" info="" />
+    <atom id="59" symbol="Ca" pos="   0.607102    0.486627    0.463341" info="" />
+    <atom id="60" symbol="Ca" pos="   0.607969    0.530627    0.477554" info="" />
+    <atom id="61" symbol="H" pos="   0.605757    0.574276    0.533575" info="" />
+    <atom id="62" symbol="H" pos="   0.599100    0.513086    0.588231" info="" />
+    <atom id="63" symbol="H" pos="   0.597561    0.434970    0.562998" info="" />
+    <atom id="64" symbol="H" pos="   0.602680    0.418045    0.483108" info="" />
+    <atom id="65" symbol="H" pos="   0.609338    0.479235    0.428451" info="" />
+    <atom id="66" symbol="H" pos="   0.610876    0.557351    0.453685" info="" />
+  </atomList>
+</molecule>

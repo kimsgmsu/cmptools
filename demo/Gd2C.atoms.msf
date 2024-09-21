@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name>unknown system</name>
+  <info></info>
+  <lattice method="vectors" pbc="True">
+    <scale value="[1.0, 1.0, 1.0]" />
+    <axis name="a1" vector="[6.257076, -1.826703, 0.000824]" />
+    <axis name="a2" vector="[6.257076, 1.826703, 0.000824]" />
+    <axis name="a3" vector="[5.723373, 0.000000, 3.119429]" />
+  </lattice>
+  <elementList>
+    <element symbol="Gd" radius="1.8" mass="157.25" info="" />
+    <element symbol="C" radius="0.7" mass="12.0107" info="" />
+    <element symbol="X" radius="1.5" mass="1.00794" info="" />
+  </elementList>
+  <atomList coord="frac" >
+    <atom id="1" symbol="Gd" pos="[0.260594, 0.260594, 0.260594]" info="" />
+    <atom id="2" symbol="Gd" pos="[0.739407, 0.739407, 0.739407]" info="" />
+    <atom id="3" symbol="C" pos="[1.000000, 1.000000, 1.000000]" info="" />
+    <atom id="4" symbol="X" pos="[0.500000, 0.500000, 0.500000]" info="" />
+  </atomList>
+</molecule>

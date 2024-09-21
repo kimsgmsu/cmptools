@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Construct a slab using the makeSupercell command" />
+  <set verbose = "3" />
+
+  <!-- Read input molecule -->
+  <readMol file="Cu.prim.vasp" result="mol0" />
+
+  <!-- Make a (111) slab 
+       a' = a - b
+       b' = a - c
+       c' = a+b+c
+       A vacuum must be added afterward
+  -->
+  <makeSupercell mol="mol0" supercell="[[1, -1, 0], [1, 0, -1], [1,1,1]]"
+		result="mol2" />
+  <writeMol mol="mol2" file="output.vasp" />
+
+</makemol>

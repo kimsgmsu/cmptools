@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name>Cu.primitive</name>
+  <info></info>
+  <lattice method="vectors" pbc="True">
+    <scale value="[3.621263, 3.621263, 3.621263]" />
+    <axis name="a1" vector="[0.0, 0.5, 0.5]" />
+    <axis name="a2" vector="[0.5, 0.0, 0.5]" />
+    <axis name="a3" vector="[0.5, 0.5, 0.0]" />
+  </lattice>
+  <elementList>
+    <element symbol="Cu" radius="1.35" mass="63.546" info="" />
+  </elementList>
+  <atomList coord="frac" >
+    <atom id="1" symbol="Cu" pos="[0.0, 0.0, 0.0]" info="Cu1" />
+  </atomList>
+</molecule>

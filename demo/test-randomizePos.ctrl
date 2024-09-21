@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test randomizePosition command" />
+  <set verbose = "3" />
+
+  <!-- Read input molecule -->
+  <readMol file="SrFe12O19.vasp" result="mol0" />
+
+  <!-- Select atoms to randomize position -->
+  <plane action="new" method="miller-and-atom"
+	 miller="[0, 0, 1]" atom="14" mol="mol0"
+	 shift="-0.1" result="plane1" />
+  <select action="new" method="plane"
+	  plane="plane1" side="up" mol="mol0" result="S1" />
+  <plane action="new" method="miller-and-atom"
+	 miller="[0, 0, 1]" atom="12" mol="mol0"
+	 shift="0.1" result="plane1" />
+  <select action="new" method="plane"
+	  plane="plane1" side="down" mol="mol0" result="S2" />
+  <select action="intersection" sets="[S1, S2]" result="S12" />
+
+  <!-- Randomize position -->
+  <randomizePos mol="mol0" sel="S12" dmax="0.2" />
+
+  <!-- Write output structure -->
+  <writeMol mol="mol0" file="tmp.vasp" />
+
+</makemol>

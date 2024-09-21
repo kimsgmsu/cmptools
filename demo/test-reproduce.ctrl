@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test reproduceMol command" />
+  <set verbose = "3" />
+
+  <!-- Read input molecule -->
+  <readMol file="Hf2S-alpha.vasp" format="vasp" result="mol0" />
+
+  <!-- Reproduce the molecule -->
+  <reproduceMol mol="mol0" latt="[[3,2,0],[-3, 1, 0],[0,0,1]]"
+		result="mol1" />
+
+  <!-- Write output structure -->
+  <writeMol mol="mol1" file="tmp.vasp" />
+
+</makemol>

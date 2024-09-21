@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test control file processing" />
+  <set reportlevel = "5" />
+
+  <!-- Read input molecule -->
+  <readMol file="CsCl.vasp" format="vasp" result="mol0" />
+
+</makemol>
+

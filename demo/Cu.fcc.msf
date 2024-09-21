@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name>Cu.mp-30.conventional.standard</name>
+  <info>Cu (mp-30) conventional standard unit cell</info>
+  <lattice method="parameters">
+    <scale value="3.621263" />
+    <lengths vector="1.0 1.0 1.0" />
+    <angles vector="90.0 90.0 90.0" />
+  </lattice>
+  <elementList>
+    <element symbol="Cu" radius="1.0" mass="1.0" info="" />
+  </elementList>
+  <atomList coord="frac" >
+    <atom indx="1" symbol="Cu" pos="0.00 0.00 0.00" info="Cu1" />
+    <atom indx="2" symbol="Cu" pos="0.00 0.50 0.50" info="Cu2" />
+    <atom indx="3" symbol="Cu" pos="0.50 0.00 0.50" info="Cu3" />
+    <atom indx="4" symbol="Cu" pos="0.50 0.50 0.00" info="Cu4" />
+  </atomList>
+</molecule>

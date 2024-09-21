@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test setMol command" />
+  <set verbose = "3" />
+
+  <!-- Read input molecule -->
+  <readMol file="Cu-111-1x1.msf" format="msf" result="mol0" />
+  <setMol mol="mol0" item="name" value="Cu(111).1x1.revised" />
+  <setMol mol="mol0" item="info" value="Unit cell of Cu(111) bulk in the standard lattice vectors" />
+  <setMol mol="mol0" item="lattice" rescale="False">
+    <lattice method="vectors">
+      <scale value="1.0" />
+      <axis name="a1" vector="1.280310 2.217561 0.000000" />
+      <axis name="a2" vector="1.280310 -2.217561  0.000000" />
+      <axis name="a3" vector="0.000000 0.000000  6.272212" />
+    </lattice>
+  </setMol>
+
+  <writeMol mol="mol0" file="Cu-111.bulk.std.msf" />
+  <writeMol mol="mol0" file="Cu-111.bulk.std.vasp" />
+
+</makemol>

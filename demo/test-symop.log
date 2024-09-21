@@ -1,0 +1,345 @@
+%makemol: Reading control file "test-symop.ctrl"
+root= makemol
+command =  makemol
+command =  set
+%makemol.set_param: title = Test 01
+command =  set
+%makemol.set_param: reportlevel = 5
+command =  readMOL
+%readmol: Reading the input file "SrFe12O19.msml"
+%readmol: input format = msml
+molecule {}
+name {}
+unit {'length': 'angstrom'}
+unitcell {'type': 'general'}
+periodic {'a1': 'True', 'a3': 'True', 'a2': 'True'}
+lattParam {'value': '1.0'}
+axis {'y': '-5.13429014663', 'x': '2.96428383706', 'z': '0.0', 'name': 'a1'}
+axis {'y': '5.13429014663', 'x': '2.96428383706', 'z': '0.0', 'name': 'a2'}
+axis {'y': '0.0', 'x': '0.0', 'z': '23.2149196716', 'name': 'a3'}
+elementlist {}
+element {'symbol': 'Sr', 'name': 'Strontium', 'weight': '87.62', 'number': '38'}
+element {'symbol': 'Fe', 'name': 'Iron', 'weight': '55.85', 'number': '26'}
+element {'symbol': 'O', 'name': 'Oxygen', 'weight': '16.00', 'number': '8'}
+atomlist {'coord': 'fractional'}
+atom {'r1': '0.333333', 'r2': '0.666667', 'r3': '0.75', 'name': 'Sr-2d', 'id': '1', 'element': 'Sr'}
+atom {'r1': '0.666667', 'r2': '0.333333', 'r3': '0.25', 'name': 'Sr-2d', 'id': '2', 'element': 'Sr'}
+atom {'r1': '0.0', 'r2': '0.0', 'r3': '0.0', 'name': 'Fe-2a', 'id': '3', 'element': 'Fe'}
+atom {'r1': '0.0', 'r2': '0.0', 'r3': '0.5', 'name': 'Fe-2a', 'id': '4', 'element': 'Fe'}
+atom {'r1': '0.0', 'r2': '0.0', 'r3': '0.25', 'name': 'Fe-2b', 'id': '5', 'element': 'Fe'}
+atom {'r1': '0.0', 'r2': '0.0', 'r3': '0.75', 'name': 'Fe-2b', 'id': '6', 'element': 'Fe'}
+atom {'r1': '0.333333', 'r2': '0.666667', 'r3': '0.0268084891919', 'name': 'Fe-4f1', 'id': '7', 'element': 'Fe'}
+atom {'r1': '0.666667', 'r2': '0.333333', 'r3': '0.526808489192', 'name': 'Fe-4f1', 'id': '8', 'element': 'Fe'}
+atom {'r1': '0.666667', 'r2': '0.333333', 'r3': '0.973191510808', 'name': 'Fe-4f1', 'id': '9', 'element': 'Fe'}
+atom {'r1': '0.333333', 'r2': '0.666667', 'r3': '0.473191510808', 'name': 'Fe-4f1', 'id': '10', 'element': 'Fe'}
+atom {'r1': '0.333333', 'r2': '0.666667', 'r3': '0.190753233243', 'name': 'Fe-4f2', 'id': '11', 'element': 'Fe'}
+atom {'r1': '0.666667', 'r2': '0.333333', 'r3': '0.690753233243', 'name': 'Fe-4f2', 'id': '12', 'element': 'Fe'}
+atom {'r1': '0.666667', 'r2': '0.333333', 'r3': '0.809246766757', 'name': 'Fe-4f2', 'id': '13', 'element': 'Fe'}
+atom {'r1': '0.333333', 'r2': '0.666667', 'r3': '0.309246766757', 'name': 'Fe-4f2', 'id': '14', 'element': 'Fe'}
+atom {'r1': '0.168875433696', 'r2': '0.337750867391', 'r3': '0.890993802844', 'name': 'Fe-12k', 'id': '15', 'element': 'Fe'}
+atom {'r1': '0.662249132609', 'r2': '0.831124566304', 'r3': '0.890993802844', 'name': 'Fe-12k', 'id': '16', 'element': 'Fe'}
+atom {'r1': '0.168875433696', 'r2': '0.831124566304', 'r3': '0.890993802844', 'name': 'Fe-12k', 'id': '17', 'element': 'Fe'}
+atom {'r1': '0.831124566304', 'r2': '0.662249132609', 'r3': '0.390993802844', 'name': 'Fe-12k', 'id': '18', 'element': 'Fe'}
+atom {'r1': '0.337750867391', 'r2': '0.168875433696', 'r3': '0.390993802844', 'name': 'Fe-12k', 'id': '19', 'element': 'Fe'}
+atom {'r1': '0.831124566304', 'r2': '0.168875433696', 'r3': '0.390993802844', 'name': 'Fe-12k', 'id': '20', 'element': 'Fe'}
+atom {'r1': '0.337750867391', 'r2': '0.168875433696', 'r3': '0.109006197156', 'name': 'Fe-12k', 'id': '21', 'element': 'Fe'}
+atom {'r1': '0.831124566304', 'r2': '0.662249132609', 'r3': '0.109006197156', 'name': 'Fe-12k', 'id': '22', 'element': 'Fe'}
+atom {'r1': '0.831124566304', 'r2': '0.168875433696', 'r3': '0.109006197156', 'name': 'Fe-12k', 'id': '23', 'element': 'Fe'}
+atom {'r1': '0.662249132609', 'r2': '0.831124566304', 'r3': '0.609006197156', 'name': 'Fe-12k', 'id': '24', 'element': 'Fe'}
+atom {'r1': '0.168875433696', 'r2': '0.337750867391', 'r3': '0.609006197156', 'name': 'Fe-12k', 'id': '25', 'element': 'Fe'}
+atom {'r1': '0.168875433696', 'r2': '0.831124566304', 'r3': '0.609006197156', 'name': 'Fe-12k', 'id': '26', 'element': 'Fe'}
+atom {'r1': '0.0', 'r2': '0.0', 'r3': '0.151907832868', 'name': 'O-4e', 'id': '27', 'element': 'O'}
+atom {'r1': '0.0', 'r2': '0.0', 'r3': '0.651907832868', 'name': 'O-4e', 'id': '28', 'element': 'O'}
+atom {'r1': '0.0', 'r2': '0.0', 'r3': '0.848092167132', 'name': 'O-4e', 'id': '29', 'element': 'O'}
+atom {'r1': '0.0', 'r2': '0.0', 'r3': '0.348092167132', 'name': 'O-4e', 'id': '30', 'element': 'O'}
+atom {'r1': '0.333333', 'r2': '0.666667', 'r3': '0.944508992822', 'name': 'O-4f', 'id': '31', 'element': 'O'}
+atom {'r1': '0.666667', 'r2': '0.333333', 'r3': '0.444508992822', 'name': 'O-4f', 'id': '32', 'element': 'O'}
+atom {'r1': '0.666667', 'r2': '0.333333', 'r3': '0.0554910071777', 'name': 'O-4f', 'id': '33', 'element': 'O'}
+atom {'r1': '0.333333', 'r2': '0.666667', 'r3': '0.555491007178', 'name': 'O-4f', 'id': '34', 'element': 'O'}
+atom {'r1': '0.181555246588', 'r2': '0.363110493176', 'r3': '0.25', 'name': 'O-6h', 'id': '35', 'element': 'O'}
+atom {'r1': '0.636889506824', 'r2': '0.818444753412', 'r3': '0.25', 'name': 'O-6h', 'id': '36', 'element': 'O'}
+atom {'r1': '0.181555246588', 'r2': '0.818444753412', 'r3': '0.25', 'name': 'O-6h', 'id': '37', 'element': 'O'}
+atom {'r1': '0.818444753412', 'r2': '0.636889506824', 'r3': '0.75', 'name': 'O-6h', 'id': '38', 'element': 'O'}
+atom {'r1': '0.363110493176', 'r2': '0.181555246588', 'r3': '0.75', 'name': 'O-6h', 'id': '39', 'element': 'O'}
+atom {'r1': '0.818444753412', 'r2': '0.181555246588', 'r3': '0.75', 'name': 'O-6h', 'id': '40', 'element': 'O'}
+atom {'r1': '0.157266107772', 'r2': '0.314532215544', 'r3': '0.0524065628733', 'name': 'O-12k1', 'id': '41', 'element': 'O'}
+atom {'r1': '0.685467784456', 'r2': '0.842733892228', 'r3': '0.0524065628733', 'name': 'O-12k1', 'id': '42', 'element': 'O'}
+atom {'r1': '0.157266107772', 'r2': '0.842733892228', 'r3': '0.0524065628733', 'name': 'O-12k1', 'id': '43', 'element': 'O'}
+atom {'r1': '0.842733892228', 'r2': '0.685467784456', 'r3': '0.552406562873', 'name': 'O-12k1', 'id': '44', 'element': 'O'}
+atom {'r1': '0.314532215544', 'r2': '0.157266107772', 'r3': '0.552406562873', 'name': 'O-12k1', 'id': '45', 'element': 'O'}
+atom {'r1': '0.842733892228', 'r2': '0.157266107772', 'r3': '0.552406562873', 'name': 'O-12k1', 'id': '46', 'element': 'O'}
+atom {'r1': '0.314532215544', 'r2': '0.157266107772', 'r3': '0.947593437127', 'name': 'O-12k1', 'id': '47', 'element': 'O'}
+atom {'r1': '0.842733892228', 'r2': '0.685467784456', 'r3': '0.947593437127', 'name': 'O-12k1', 'id': '48', 'element': 'O'}
+atom {'r1': '0.842733892228', 'r2': '0.157266107772', 'r3': '0.947593437127', 'name': 'O-12k1', 'id': '49', 'element': 'O'}
+atom {'r1': '0.685467784456', 'r2': '0.842733892228', 'r3': '0.447593437127', 'name': 'O-12k1', 'id': '50', 'element': 'O'}
+atom {'r1': '0.157266107772', 'r2': '0.314532215544', 'r3': '0.447593437127', 'name': 'O-12k1', 'id': '51', 'element': 'O'}
+atom {'r1': '0.157266107772', 'r2': '0.842733892228', 'r3': '0.447593437127', 'name': 'O-12k1', 'id': '52', 'element': 'O'}
+atom {'r1': '0.504083937025', 'r2': '0.0081678740493', 'r3': '0.151487686074', 'name': 'O-12k2', 'id': '53', 'element': 'O'}
+atom {'r1': '0.991832125951', 'r2': '0.495916062975', 'r3': '0.151487686074', 'name': 'O-12k2', 'id': '54', 'element': 'O'}
+atom {'r1': '0.504083937025', 'r2': '0.495916062975', 'r3': '0.151487686074', 'name': 'O-12k2', 'id': '55', 'element': 'O'}
+atom {'r1': '0.495916062975', 'r2': '0.991832125951', 'r3': '0.651487686074', 'name': 'O-12k2', 'id': '56', 'element': 'O'}
+atom {'r1': '0.0081678740493', 'r2': '0.504083937025', 'r3': '0.651487686074', 'name': 'O-12k2', 'id': '57', 'element': 'O'}
+atom {'r1': '0.495916062975', 'r2': '0.504083937025', 'r3': '0.651487686074', 'name': 'O-12k2', 'id': '58', 'element': 'O'}
+atom {'r1': '0.0081678740493', 'r2': '0.504083937025', 'r3': '0.848512313926', 'name': 'O-12k2', 'id': '59', 'element': 'O'}
+atom {'r1': '0.495916062975', 'r2': '0.991832125951', 'r3': '0.848512313926', 'name': 'O-12k2', 'id': '60', 'element': 'O'}
+atom {'r1': '0.495916062975', 'r2': '0.504083937025', 'r3': '0.848512313926', 'name': 'O-12k2', 'id': '61', 'element': 'O'}
+atom {'r1': '0.991832125951', 'r2': '0.495916062975', 'r3': '0.348512313926', 'name': 'O-12k2', 'id': '62', 'element': 'O'}
+atom {'r1': '0.504083937025', 'r2': '0.0081678740493', 'r3': '0.348512313926', 'name': 'O-12k2', 'id': '63', 'element': 'O'}
+atom {'r1': '0.504083937025', 'r2': '0.495916062975', 'r3': '0.348512313926', 'name': 'O-12k2', 'id': '64', 'element': 'O'}
+<unitcell> tag found.
+<elementlist> tag found.
+<atomlist> tag found.
+ID: 
+Name: Sr-hexaferrite (SrFe12O19)
+Unitlength: angstrom
+Unitcell:
+  type = general
+  lattice parameter = 1.0
+  periodic = [ True  True  True]
+  axis[a1] = [ 2.96428384  2.96428384  0.        ]
+  axis[a2] = [-5.13429015  5.13429015  0.        ]
+  axis[a3] = [  0.           0.          23.21491967]
+Elements: 3
+Element: 0  name = Strontium  symbol = Sr  number = 38  weight = 87.62
+Element: 1  name = Iron  symbol = Fe  number = 26  weight = 55.85
+Element: 2  name = Oxygen  symbol = O  number = 8  weight = 16.0
+Atomcoord: fractional
+Atoms: 64
+Atom: # 1  element = Sr  name = Sr-2d  pos = [ 0.333333  0.666667  0.75    ]
+Atom: # 2  element = Sr  name = Sr-2d  pos = [ 0.666667  0.333333  0.25    ]
+Atom: # 3  element = Fe  name = Fe-2a  pos = [ 0.  0.  0.]
+Atom: # 4  element = Fe  name = Fe-2a  pos = [ 0.   0.   0.5]
+Atom: # 5  element = Fe  name = Fe-2b  pos = [ 0.    0.    0.25]
+Atom: # 6  element = Fe  name = Fe-2b  pos = [ 0.    0.    0.75]
+Atom: # 7  element = Fe  name = Fe-4f1  pos = [ 0.333333    0.666667    0.02680849]
+Atom: # 8  element = Fe  name = Fe-4f1  pos = [ 0.666667    0.333333    0.52680849]
+Atom: # 9  element = Fe  name = Fe-4f1  pos = [ 0.666667    0.333333    0.97319151]
+Atom: # 10  element = Fe  name = Fe-4f1  pos = [ 0.333333    0.666667    0.47319151]
+Atom: # 11  element = Fe  name = Fe-4f2  pos = [ 0.333333    0.666667    0.19075323]
+Atom: # 12  element = Fe  name = Fe-4f2  pos = [ 0.666667    0.333333    0.69075323]
+Atom: # 13  element = Fe  name = Fe-4f2  pos = [ 0.666667    0.333333    0.80924677]
+Atom: # 14  element = Fe  name = Fe-4f2  pos = [ 0.333333    0.666667    0.30924677]
+Atom: # 15  element = Fe  name = Fe-12k  pos = [ 0.16887543  0.33775087  0.8909938 ]
+Atom: # 16  element = Fe  name = Fe-12k  pos = [ 0.66224913  0.83112457  0.8909938 ]
+Atom: # 17  element = Fe  name = Fe-12k  pos = [ 0.16887543  0.83112457  0.8909938 ]
+Atom: # 18  element = Fe  name = Fe-12k  pos = [ 0.83112457  0.66224913  0.3909938 ]
+Atom: # 19  element = Fe  name = Fe-12k  pos = [ 0.33775087  0.16887543  0.3909938 ]
+Atom: # 20  element = Fe  name = Fe-12k  pos = [ 0.83112457  0.16887543  0.3909938 ]
+Atom: # 21  element = Fe  name = Fe-12k  pos = [ 0.33775087  0.16887543  0.1090062 ]
+Atom: # 22  element = Fe  name = Fe-12k  pos = [ 0.83112457  0.66224913  0.1090062 ]
+Atom: # 23  element = Fe  name = Fe-12k  pos = [ 0.83112457  0.16887543  0.1090062 ]
+Atom: # 24  element = Fe  name = Fe-12k  pos = [ 0.66224913  0.83112457  0.6090062 ]
+Atom: # 25  element = Fe  name = Fe-12k  pos = [ 0.16887543  0.33775087  0.6090062 ]
+Atom: # 26  element = Fe  name = Fe-12k  pos = [ 0.16887543  0.83112457  0.6090062 ]
+Atom: # 27  element = O  name = O-4e  pos = [ 0.          0.          0.15190783]
+Atom: # 28  element = O  name = O-4e  pos = [ 0.          0.          0.65190783]
+Atom: # 29  element = O  name = O-4e  pos = [ 0.          0.          0.84809217]
+Atom: # 30  element = O  name = O-4e  pos = [ 0.          0.          0.34809217]
+Atom: # 31  element = O  name = O-4f  pos = [ 0.333333    0.666667    0.94450899]
+Atom: # 32  element = O  name = O-4f  pos = [ 0.666667    0.333333    0.44450899]
+Atom: # 33  element = O  name = O-4f  pos = [ 0.666667    0.333333    0.05549101]
+Atom: # 34  element = O  name = O-4f  pos = [ 0.333333    0.666667    0.55549101]
+Atom: # 35  element = O  name = O-6h  pos = [ 0.18155525  0.36311049  0.25      ]
+Atom: # 36  element = O  name = O-6h  pos = [ 0.63688951  0.81844475  0.25      ]
+Atom: # 37  element = O  name = O-6h  pos = [ 0.18155525  0.81844475  0.25      ]
+Atom: # 38  element = O  name = O-6h  pos = [ 0.81844475  0.63688951  0.75      ]
+Atom: # 39  element = O  name = O-6h  pos = [ 0.36311049  0.18155525  0.75      ]
+Atom: # 40  element = O  name = O-6h  pos = [ 0.81844475  0.18155525  0.75      ]
+Atom: # 41  element = O  name = O-12k1  pos = [ 0.15726611  0.31453222  0.05240656]
+Atom: # 42  element = O  name = O-12k1  pos = [ 0.68546778  0.84273389  0.05240656]
+Atom: # 43  element = O  name = O-12k1  pos = [ 0.15726611  0.84273389  0.05240656]
+Atom: # 44  element = O  name = O-12k1  pos = [ 0.84273389  0.68546778  0.55240656]
+Atom: # 45  element = O  name = O-12k1  pos = [ 0.31453222  0.15726611  0.55240656]
+Atom: # 46  element = O  name = O-12k1  pos = [ 0.84273389  0.15726611  0.55240656]
+Atom: # 47  element = O  name = O-12k1  pos = [ 0.31453222  0.15726611  0.94759344]
+Atom: # 48  element = O  name = O-12k1  pos = [ 0.84273389  0.68546778  0.94759344]
+Atom: # 49  element = O  name = O-12k1  pos = [ 0.84273389  0.15726611  0.94759344]
+Atom: # 50  element = O  name = O-12k1  pos = [ 0.68546778  0.84273389  0.44759344]
+Atom: # 51  element = O  name = O-12k1  pos = [ 0.15726611  0.31453222  0.44759344]
+Atom: # 52  element = O  name = O-12k1  pos = [ 0.15726611  0.84273389  0.44759344]
+Atom: # 53  element = O  name = O-12k2  pos = [ 0.50408394  0.00816787  0.15148769]
+Atom: # 54  element = O  name = O-12k2  pos = [ 0.99183213  0.49591606  0.15148769]
+Atom: # 55  element = O  name = O-12k2  pos = [ 0.50408394  0.49591606  0.15148769]
+Atom: # 56  element = O  name = O-12k2  pos = [ 0.49591606  0.99183213  0.65148769]
+Atom: # 57  element = O  name = O-12k2  pos = [ 0.00816787  0.50408394  0.65148769]
+Atom: # 58  element = O  name = O-12k2  pos = [ 0.49591606  0.50408394  0.65148769]
+Atom: # 59  element = O  name = O-12k2  pos = [ 0.00816787  0.50408394  0.84851231]
+Atom: # 60  element = O  name = O-12k2  pos = [ 0.49591606  0.99183213  0.84851231]
+Atom: # 61  element = O  name = O-12k2  pos = [ 0.49591606  0.50408394  0.84851231]
+Atom: # 62  element = O  name = O-12k2  pos = [ 0.99183213  0.49591606  0.34851231]
+Atom: # 63  element = O  name = O-12k2  pos = [ 0.50408394  0.00816787  0.34851231]
+Atom: # 64  element = O  name = O-12k2  pos = [ 0.50408394  0.49591606  0.34851231]
+%Molecule: finalizing molecule
+%unitcell: fractional to cartesian transformation matrix:
+[[  2.96428384   2.96428384   0.        ]
+ [ -5.13429015   5.13429015   0.        ]
+ [  0.           0.          23.21491967]]
+%unitcell: cartesian to fractional transformation matrix:
+[[ 0.16867481 -0.09738445  0.        ]
+ [ 0.16867481  0.09738445  0.        ]
+ [ 0.          0.          0.04307575]]
+%readmol: resultant molecule
+ID: mol0
+Name: Sr-hexaferrite (SrFe12O19)
+Unitlength: angstrom
+Unitcell:
+  type = general
+  lattice parameter = 1.0
+  periodic = [ True  True  True]
+  axis[a1] = [ 2.96428384  2.96428384  0.        ]
+  axis[a2] = [-5.13429015  5.13429015  0.        ]
+  axis[a3] = [  0.           0.          23.21491967]
+Elements: 3
+Element: 0  name = Strontium  symbol = Sr  number = 38  weight = 87.62
+Element: 1  name = Iron  symbol = Fe  number = 26  weight = 55.85
+Element: 2  name = Oxygen  symbol = O  number = 8  weight = 16.0
+Atomcoord: fractional
+Atoms: 64
+Atom: # 1  element = Sr  name = Sr-2d  pos = [ 0.333333  0.666667  0.75    ]
+Atom: # 2  element = Sr  name = Sr-2d  pos = [ 0.666667  0.333333  0.25    ]
+Atom: # 3  element = Fe  name = Fe-2a  pos = [ 0.  0.  0.]
+Atom: # 4  element = Fe  name = Fe-2a  pos = [ 0.   0.   0.5]
+Atom: # 5  element = Fe  name = Fe-2b  pos = [ 0.    0.    0.25]
+Atom: # 6  element = Fe  name = Fe-2b  pos = [ 0.    0.    0.75]
+Atom: # 7  element = Fe  name = Fe-4f1  pos = [ 0.333333    0.666667    0.02680849]
+Atom: # 8  element = Fe  name = Fe-4f1  pos = [ 0.666667    0.333333    0.52680849]
+Atom: # 9  element = Fe  name = Fe-4f1  pos = [ 0.666667    0.333333    0.97319151]
+Atom: # 10  element = Fe  name = Fe-4f1  pos = [ 0.333333    0.666667    0.47319151]
+Atom: # 11  element = Fe  name = Fe-4f2  pos = [ 0.333333    0.666667    0.19075323]
+Atom: # 12  element = Fe  name = Fe-4f2  pos = [ 0.666667    0.333333    0.69075323]
+Atom: # 13  element = Fe  name = Fe-4f2  pos = [ 0.666667    0.333333    0.80924677]
+Atom: # 14  element = Fe  name = Fe-4f2  pos = [ 0.333333    0.666667    0.30924677]
+Atom: # 15  element = Fe  name = Fe-12k  pos = [ 0.16887543  0.33775087  0.8909938 ]
+Atom: # 16  element = Fe  name = Fe-12k  pos = [ 0.66224913  0.83112457  0.8909938 ]
+Atom: # 17  element = Fe  name = Fe-12k  pos = [ 0.16887543  0.83112457  0.8909938 ]
+Atom: # 18  element = Fe  name = Fe-12k  pos = [ 0.83112457  0.66224913  0.3909938 ]
+Atom: # 19  element = Fe  name = Fe-12k  pos = [ 0.33775087  0.16887543  0.3909938 ]
+Atom: # 20  element = Fe  name = Fe-12k  pos = [ 0.83112457  0.16887543  0.3909938 ]
+Atom: # 21  element = Fe  name = Fe-12k  pos = [ 0.33775087  0.16887543  0.1090062 ]
+Atom: # 22  element = Fe  name = Fe-12k  pos = [ 0.83112457  0.66224913  0.1090062 ]
+Atom: # 23  element = Fe  name = Fe-12k  pos = [ 0.83112457  0.16887543  0.1090062 ]
+Atom: # 24  element = Fe  name = Fe-12k  pos = [ 0.66224913  0.83112457  0.6090062 ]
+Atom: # 25  element = Fe  name = Fe-12k  pos = [ 0.16887543  0.33775087  0.6090062 ]
+Atom: # 26  element = Fe  name = Fe-12k  pos = [ 0.16887543  0.83112457  0.6090062 ]
+Atom: # 27  element = O  name = O-4e  pos = [ 0.          0.          0.15190783]
+Atom: # 28  element = O  name = O-4e  pos = [ 0.          0.          0.65190783]
+Atom: # 29  element = O  name = O-4e  pos = [ 0.          0.          0.84809217]
+Atom: # 30  element = O  name = O-4e  pos = [ 0.          0.          0.34809217]
+Atom: # 31  element = O  name = O-4f  pos = [ 0.333333    0.666667    0.94450899]
+Atom: # 32  element = O  name = O-4f  pos = [ 0.666667    0.333333    0.44450899]
+Atom: # 33  element = O  name = O-4f  pos = [ 0.666667    0.333333    0.05549101]
+Atom: # 34  element = O  name = O-4f  pos = [ 0.333333    0.666667    0.55549101]
+Atom: # 35  element = O  name = O-6h  pos = [ 0.18155525  0.36311049  0.25      ]
+Atom: # 36  element = O  name = O-6h  pos = [ 0.63688951  0.81844475  0.25      ]
+Atom: # 37  element = O  name = O-6h  pos = [ 0.18155525  0.81844475  0.25      ]
+Atom: # 38  element = O  name = O-6h  pos = [ 0.81844475  0.63688951  0.75      ]
+Atom: # 39  element = O  name = O-6h  pos = [ 0.36311049  0.18155525  0.75      ]
+Atom: # 40  element = O  name = O-6h  pos = [ 0.81844475  0.18155525  0.75      ]
+Atom: # 41  element = O  name = O-12k1  pos = [ 0.15726611  0.31453222  0.05240656]
+Atom: # 42  element = O  name = O-12k1  pos = [ 0.68546778  0.84273389  0.05240656]
+Atom: # 43  element = O  name = O-12k1  pos = [ 0.15726611  0.84273389  0.05240656]
+Atom: # 44  element = O  name = O-12k1  pos = [ 0.84273389  0.68546778  0.55240656]
+Atom: # 45  element = O  name = O-12k1  pos = [ 0.31453222  0.15726611  0.55240656]
+Atom: # 46  element = O  name = O-12k1  pos = [ 0.84273389  0.15726611  0.55240656]
+Atom: # 47  element = O  name = O-12k1  pos = [ 0.31453222  0.15726611  0.94759344]
+Atom: # 48  element = O  name = O-12k1  pos = [ 0.84273389  0.68546778  0.94759344]
+Atom: # 49  element = O  name = O-12k1  pos = [ 0.84273389  0.15726611  0.94759344]
+Atom: # 50  element = O  name = O-12k1  pos = [ 0.68546778  0.84273389  0.44759344]
+Atom: # 51  element = O  name = O-12k1  pos = [ 0.15726611  0.31453222  0.44759344]
+Atom: # 52  element = O  name = O-12k1  pos = [ 0.15726611  0.84273389  0.44759344]
+Atom: # 53  element = O  name = O-12k2  pos = [ 0.50408394  0.00816787  0.15148769]
+Atom: # 54  element = O  name = O-12k2  pos = [ 0.99183213  0.49591606  0.15148769]
+Atom: # 55  element = O  name = O-12k2  pos = [ 0.50408394  0.49591606  0.15148769]
+Atom: # 56  element = O  name = O-12k2  pos = [ 0.49591606  0.99183213  0.65148769]
+Atom: # 57  element = O  name = O-12k2  pos = [ 0.00816787  0.50408394  0.65148769]
+Atom: # 58  element = O  name = O-12k2  pos = [ 0.49591606  0.50408394  0.65148769]
+Atom: # 59  element = O  name = O-12k2  pos = [ 0.00816787  0.50408394  0.84851231]
+Atom: # 60  element = O  name = O-12k2  pos = [ 0.49591606  0.99183213  0.84851231]
+Atom: # 61  element = O  name = O-12k2  pos = [ 0.49591606  0.50408394  0.84851231]
+Atom: # 62  element = O  name = O-12k2  pos = [ 0.99183213  0.49591606  0.34851231]
+Atom: # 63  element = O  name = O-12k2  pos = [ 0.50408394  0.00816787  0.34851231]
+Atom: # 64  element = O  name = O-12k2  pos = [ 0.50408394  0.49591606  0.34851231]
+command =  applySYMOP
+%applySYMOP: applying op="-y,x-y,z" on mol="mol0"
+%applySYMOP: resultant molecule
+ID: mol1
+Name: Sr-hexaferrite (SrFe12O19)
+Unitlength: angstrom
+Unitcell:
+  type = general
+  lattice parameter = 1.0
+  periodic = [ True  True  True]
+  axis[a1] = [ 2.96428384  2.96428384  0.        ]
+  axis[a2] = [-5.13429015  5.13429015  0.        ]
+  axis[a3] = [  0.           0.          23.21491967]
+Elements: 3
+Element: 0  name = Strontium  symbol = Sr  number = 38  weight = 87.62
+Element: 1  name = Iron  symbol = Fe  number = 26  weight = 55.85
+Element: 2  name = Oxygen  symbol = O  number = 8  weight = 16.0
+Atomcoord: fractional
+Atoms: 64
+Atom: # 1  element = Sr  name = Sr-2d  pos = [-0.666667 -0.333334  0.75    ]
+Atom: # 2  element = Sr  name = Sr-2d  pos = [-0.333333  0.333334  0.25    ]
+Atom: # 3  element = Fe  name = Fe-2a  pos = [ 0.  0.  0.]
+Atom: # 4  element = Fe  name = Fe-2a  pos = [ 0.   0.   0.5]
+Atom: # 5  element = Fe  name = Fe-2b  pos = [ 0.    0.    0.25]
+Atom: # 6  element = Fe  name = Fe-2b  pos = [ 0.    0.    0.75]
+Atom: # 7  element = Fe  name = Fe-4f1  pos = [-0.666667   -0.333334    0.02680849]
+Atom: # 8  element = Fe  name = Fe-4f1  pos = [-0.333333    0.333334    0.52680849]
+Atom: # 9  element = Fe  name = Fe-4f1  pos = [-0.333333    0.333334    0.97319151]
+Atom: # 10  element = Fe  name = Fe-4f1  pos = [-0.666667   -0.333334    0.47319151]
+Atom: # 11  element = Fe  name = Fe-4f2  pos = [-0.666667   -0.333334    0.19075323]
+Atom: # 12  element = Fe  name = Fe-4f2  pos = [-0.333333    0.333334    0.69075323]
+Atom: # 13  element = Fe  name = Fe-4f2  pos = [-0.333333    0.333334    0.80924677]
+Atom: # 14  element = Fe  name = Fe-4f2  pos = [-0.666667   -0.333334    0.30924677]
+Atom: # 15  element = Fe  name = Fe-12k  pos = [-0.33775087 -0.16887543  0.8909938 ]
+Atom: # 16  element = Fe  name = Fe-12k  pos = [-0.83112457 -0.16887543  0.8909938 ]
+Atom: # 17  element = Fe  name = Fe-12k  pos = [-0.83112457 -0.66224913  0.8909938 ]
+Atom: # 18  element = Fe  name = Fe-12k  pos = [-0.66224913  0.16887543  0.3909938 ]
+Atom: # 19  element = Fe  name = Fe-12k  pos = [-0.16887543  0.16887543  0.3909938 ]
+Atom: # 20  element = Fe  name = Fe-12k  pos = [-0.16887543  0.66224913  0.3909938 ]
+Atom: # 21  element = Fe  name = Fe-12k  pos = [-0.16887543  0.16887543  0.1090062 ]
+Atom: # 22  element = Fe  name = Fe-12k  pos = [-0.66224913  0.16887543  0.1090062 ]
+Atom: # 23  element = Fe  name = Fe-12k  pos = [-0.16887543  0.66224913  0.1090062 ]
+Atom: # 24  element = Fe  name = Fe-12k  pos = [-0.83112457 -0.16887543  0.6090062 ]
+Atom: # 25  element = Fe  name = Fe-12k  pos = [-0.33775087 -0.16887543  0.6090062 ]
+Atom: # 26  element = Fe  name = Fe-12k  pos = [-0.83112457 -0.66224913  0.6090062 ]
+Atom: # 27  element = O  name = O-4e  pos = [ 0.          0.          0.15190783]
+Atom: # 28  element = O  name = O-4e  pos = [ 0.          0.          0.65190783]
+Atom: # 29  element = O  name = O-4e  pos = [ 0.          0.          0.84809217]
+Atom: # 30  element = O  name = O-4e  pos = [ 0.          0.          0.34809217]
+Atom: # 31  element = O  name = O-4f  pos = [-0.666667   -0.333334    0.94450899]
+Atom: # 32  element = O  name = O-4f  pos = [-0.333333    0.333334    0.44450899]
+Atom: # 33  element = O  name = O-4f  pos = [-0.333333    0.333334    0.05549101]
+Atom: # 34  element = O  name = O-4f  pos = [-0.666667   -0.333334    0.55549101]
+Atom: # 35  element = O  name = O-6h  pos = [-0.36311049 -0.18155525  0.25      ]
+Atom: # 36  element = O  name = O-6h  pos = [-0.81844475 -0.18155525  0.25      ]
+Atom: # 37  element = O  name = O-6h  pos = [-0.81844475 -0.63688951  0.25      ]
+Atom: # 38  element = O  name = O-6h  pos = [-0.63688951  0.18155525  0.75      ]
+Atom: # 39  element = O  name = O-6h  pos = [-0.18155525  0.18155525  0.75      ]
+Atom: # 40  element = O  name = O-6h  pos = [-0.18155525  0.63688951  0.75      ]
+Atom: # 41  element = O  name = O-12k1  pos = [-0.31453222 -0.15726611  0.05240656]
+Atom: # 42  element = O  name = O-12k1  pos = [-0.84273389 -0.15726611  0.05240656]
+Atom: # 43  element = O  name = O-12k1  pos = [-0.84273389 -0.68546778  0.05240656]
+Atom: # 44  element = O  name = O-12k1  pos = [-0.68546778  0.15726611  0.55240656]
+Atom: # 45  element = O  name = O-12k1  pos = [-0.15726611  0.15726611  0.55240656]
+Atom: # 46  element = O  name = O-12k1  pos = [-0.15726611  0.68546778  0.55240656]
+Atom: # 47  element = O  name = O-12k1  pos = [-0.15726611  0.15726611  0.94759344]
+Atom: # 48  element = O  name = O-12k1  pos = [-0.68546778  0.15726611  0.94759344]
+Atom: # 49  element = O  name = O-12k1  pos = [-0.15726611  0.68546778  0.94759344]
+Atom: # 50  element = O  name = O-12k1  pos = [-0.84273389 -0.15726611  0.44759344]
+Atom: # 51  element = O  name = O-12k1  pos = [-0.31453222 -0.15726611  0.44759344]
+Atom: # 52  element = O  name = O-12k1  pos = [-0.84273389 -0.68546778  0.44759344]
+Atom: # 53  element = O  name = O-12k2  pos = [-0.00816787  0.49591606  0.15148769]
+Atom: # 54  element = O  name = O-12k2  pos = [-0.49591606  0.49591606  0.15148769]
+Atom: # 55  element = O  name = O-12k2  pos = [-0.49591606  0.00816787  0.15148769]
+Atom: # 56  element = O  name = O-12k2  pos = [-0.99183213 -0.49591606  0.65148769]
+Atom: # 57  element = O  name = O-12k2  pos = [-0.50408394 -0.49591606  0.65148769]
+Atom: # 58  element = O  name = O-12k2  pos = [-0.50408394 -0.00816787  0.65148769]
+Atom: # 59  element = O  name = O-12k2  pos = [-0.50408394 -0.49591606  0.84851231]
+Atom: # 60  element = O  name = O-12k2  pos = [-0.99183213 -0.49591606  0.84851231]
+Atom: # 61  element = O  name = O-12k2  pos = [-0.50408394 -0.00816787  0.84851231]
+Atom: # 62  element = O  name = O-12k2  pos = [-0.49591606  0.49591606  0.34851231]
+Atom: # 63  element = O  name = O-12k2  pos = [-0.00816787  0.49591606  0.34851231]
+Atom: # 64  element = O  name = O-12k2  pos = [-0.49591606  0.00816787  0.34851231]
+command =  diffMOL

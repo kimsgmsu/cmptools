@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name>test1</name>
+  <info></info>
+  <lattice method="vectors" pbc="True">
+    <scale value="[1.0, 1.0, 1.0]" />
+    <axis name="a1" vector="[1.000000, 2.000000, 0.000000]" />
+    <axis name="a2" vector="[1.000000, -3.000000, 0.500000]" />
+    <axis name="a3" vector="[0.100000, 0.300000, 2.500000]" />
+  </lattice>
+  <elementList>
+    <element symbol="Gd" radius="1.8" mass="157.25" info="" />
+    <element symbol="C" radius="0.7" mass="12.0107" info="" />
+    <element symbol="X" radius="0.25" mass="1.00794" info="" />
+  </elementList>
+  <atomList coord="frac" >
+    <atom id="1" symbol="Gd" pos="[1.000000, 0.000000, 0.000000]" sdyn="T T F Gd1" info="Gd1" />
+    <atom id="2" symbol="Gd" pos="[-0.000000, 1.000000, -0.000000]" sdyn="F T T Gd2" info="Gd2" />
+    <atom id="3" symbol="Gd" pos="[-0.000000, 0.000000, 1.000000]" sdyn="T T T Gd3" info="Gd3" />
+    <atom id="4" symbol="C" pos="[1.000000, 1.000000, 1.000000]" sdyn="F F F C1" info="C1" />
+    <atom id="5" symbol="C" pos="[1.000000, 2.000000, -0.000000]" sdyn="T T F C2" info="C2" />
+    <atom id="6" symbol="X" pos="[-0.000000, 1.000000, 2.000000]" sdyn="F T F IAE" info="IAE" />
+  </atomList>
+</molecule>

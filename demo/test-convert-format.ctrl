@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test format conversion" />
+  <set verbose = "4" />
+
+  <!-- Read input molecule -->
+  <readMol file="SrFe12O19-orig.vasp" format="vasp" result="mol0" />
+
+  <!-- Write output molecule in vasp format -->
+  <writeMol mol="mol0" file="tmp1.vasp" format="vasp" coord="frac" />
+
+  <!-- Write output molecule in vasp format -->
+  <writeMol mol="mol0" file="tmp2.vasp" format="vasp" 
+         coord="frac" option="newinfo" />
+
+  <!-- Write output molecule in msf format -->
+  <writeMol mol="mol0" file="SrFe12O19-new.msf" format="msf" coord="frac" />
+
+  <!-- Read molecule -->
+  <readMol file="SrFe12O19-new.msf" format="msf" result="mol1" />
+
+</makemol>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name>Sr-hexaferrite (SrFe12O19)</name>
+  <info></info>
+  <lattice method="vectors" pbc="True">
+    <scale value="[1.0, 1.0, 1.0]" />
+    <axis name="a1" vector="[2.964284, -5.134290, 0.000000]" />
+    <axis name="a2" vector="[2.964284, 5.134290, 0.000000]" />
+    <axis name="a3" vector="[0.000000, 0.000000, 23.214920]" />
+  </lattice>
+  <elementList>
+    <element symbol="Sr" radius="2.0" mass="87.62" info="" />
+    <element symbol="Fe" radius="1.4" mass="55.845" info="" />
+    <element symbol="O" radius="0.6" mass="15.9994" info="" />
+  </elementList>
+  <atomList coord="frac" >
+    <atom id="1" symbol="Sr" pos="[0.333333, 0.666667, 0.750000]" info="# Sr0 Sr-2d" />
+    <atom id="2" symbol="Sr" pos="[0.666667, 0.333333, 0.250000]" info="# Sr1 Sr-2d" />
+    <atom id="3" symbol="Fe" pos="[0.000000, 0.000000, 0.000000]" info="# Fe2 Fe-2a" />
+    <atom id="4" symbol="Fe" pos="[0.000000, 0.000000, 0.500000]" info="# Fe3 Fe-2a" />
+    <atom id="5" symbol="Fe" pos="[0.000000, 0.000000, 0.250000]" info="# Fe4 Fe-2b" />
+    <atom id="6" symbol="Fe" pos="[0.000000, 0.000000, 0.750000]" info="# Fe5 Fe-2b" />
+    <atom id="7" symbol="Fe" pos="[0.333333, 0.666667, 0.026808]" info="# Fe6 Fe-4f1" />
+    <atom id="8" symbol="Fe" pos="[0.666667, 0.333333, 0.526808]" info="# Fe7 Fe-4f1" />
+    <atom id="9" symbol="Fe" pos="[0.666667, 0.333333, 0.973192]" info="# Fe8 Fe-4f1" />
+    <atom id="10" symbol="Fe" pos="[0.333333, 0.666667, 0.473192]" info="# Fe9 Fe-4f1" />
+    <atom id="11" symbol="Fe" pos="[0.333333, 0.666667, 0.190753]" info="# Fe10 Fe-4f2" />
+    <atom id="12" symbol="Fe" pos="[0.666667, 0.333333, 0.690753]" info="# Fe11 Fe-4f2" />
+    <atom id="13" symbol="Fe" pos="[0.666667, 0.333333, 0.809247]" info="# Fe12 Fe-4f2" />
+    <atom id="14" symbol="Fe" pos="[0.333333, 0.666667, 0.309247]" info="# Fe13 Fe-4f2" />
+    <atom id="15" symbol="Fe" pos="[0.168875, 0.337751, 0.890994]" info="# Fe14 Fe-12k" />
+    <atom id="16" symbol="Fe" pos="[0.662249, 0.831125, 0.890994]" info="# Fe15 Fe-12k" />
+    <atom id="17" symbol="Fe" pos="[0.168875, 0.831125, 0.890994]" info="# Fe16 Fe-12k" />
+    <atom id="18" symbol="Fe" pos="[0.831125, 0.662249, 0.390994]" info="# Fe17 Fe-12k" />
+    <atom id="19" symbol="Fe" pos="[0.337751, 0.168875, 0.390994]" info="# Fe18 Fe-12k" />
+    <atom id="20" symbol="Fe" pos="[0.831125, 0.168875, 0.390994]" info="# Fe19 Fe-12k" />
+    <atom id="21" symbol="Fe" pos="[0.337751, 0.168875, 0.109006]" info="# Fe20 Fe-12k" />
+    <atom id="22" symbol="Fe" pos="[0.831125, 0.662249, 0.109006]" info="# Fe21 Fe-12k" />
+    <atom id="23" symbol="Fe" pos="[0.831125, 0.168875, 0.109006]" info="# Fe22 Fe-12k" />
+    <atom id="24" symbol="Fe" pos="[0.662249, 0.831125, 0.609006]" info="# Fe23 Fe-12k" />
+    <atom id="25" symbol="Fe" pos="[0.168875, 0.337751, 0.609006]" info="# Fe24 Fe-12k" />
+    <atom id="26" symbol="Fe" pos="[0.168875, 0.831125, 0.609006]" info="# Fe25 Fe-12k" />
+    <atom id="27" symbol="O" pos="[0.000000, 0.000000, 0.151908]" info="# O26 O-4e" />
+    <atom id="28" symbol="O" pos="[0.000000, 0.000000, 0.651908]" info="# O27 O-4e" />
+    <atom id="29" symbol="O" pos="[0.000000, 0.000000, 0.848092]" info="# O28 O-4e" />
+    <atom id="30" symbol="O" pos="[0.000000, 0.000000, 0.348092]" info="# O29 O-4e" />
+    <atom id="31" symbol="O" pos="[0.333333, 0.666667, 0.944509]" info="# O30 O-4f" />
+    <atom id="32" symbol="O" pos="[0.666667, 0.333333, 0.444509]" info="# O31 O-4f" />
+    <atom id="33" symbol="O" pos="[0.666667, 0.333333, 0.055491]" info="# O32 O-4f" />
+    <atom id="34" symbol="O" pos="[0.333333, 0.666667, 0.555491]" info="# O33 O-4f" />
+    <atom id="35" symbol="O" pos="[0.181555, 0.363110, 0.250000]" info="# O34 O-6h" />
+    <atom id="36" symbol="O" pos="[0.636890, 0.818445, 0.250000]" info="# O35 O-6h" />
+    <atom id="37" symbol="O" pos="[0.181555, 0.818445, 0.250000]" info="# O36 O-6h" />
+    <atom id="38" symbol="O" pos="[0.818445, 0.636890, 0.750000]" info="# O37 O-6h" />
+    <atom id="39" symbol="O" pos="[0.363110, 0.181555, 0.750000]" info="# O38 O-6h" />
+    <atom id="40" symbol="O" pos="[0.818445, 0.181555, 0.750000]" info="# O39 O-6h" />
+    <atom id="41" symbol="O" pos="[0.157266, 0.314532, 0.052407]" info="# O40 O-12k1" />
+    <atom id="42" symbol="O" pos="[0.685468, 0.842734, 0.052407]" info="# O41 O-12k1" />
+    <atom id="43" symbol="O" pos="[0.157266, 0.842734, 0.052407]" info="# O42 O-12k1" />
+    <atom id="44" symbol="O" pos="[0.842734, 0.685468, 0.552407]" info="# O43 O-12k1" />
+    <atom id="45" symbol="O" pos="[0.314532, 0.157266, 0.552407]" info="# O44 O-12k1" />
+    <atom id="46" symbol="O" pos="[0.842734, 0.157266, 0.552407]" info="# O45 O-12k1" />
+    <atom id="47" symbol="O" pos="[0.314532, 0.157266, 0.947593]" info="# O46 O-12k1" />
+    <atom id="48" symbol="O" pos="[0.842734, 0.685468, 0.947593]" info="# O47 O-12k1" />
+    <atom id="49" symbol="O" pos="[0.842734, 0.157266, 0.947593]" info="# O48 O-12k1" />
+    <atom id="50" symbol="O" pos="[0.685468, 0.842734, 0.447593]" info="# O49 O-12k1" />
+    <atom id="51" symbol="O" pos="[0.157266, 0.314532, 0.447593]" info="# O50 O-12k1" />
+    <atom id="52" symbol="O" pos="[0.157266, 0.842734, 0.447593]" info="# O51 O-12k1" />
+    <atom id="53" symbol="O" pos="[0.504084, 0.008168, 0.151488]" info="# O52 O-12k2" />
+    <atom id="54" symbol="O" pos="[0.991832, 0.495916, 0.151488]" info="# O53 O-12k2" />
+    <atom id="55" symbol="O" pos="[0.504084, 0.495916, 0.151488]" info="# O54 O-12k2" />
+    <atom id="56" symbol="O" pos="[0.495916, 0.991832, 0.651488]" info="# O55 O-12k2" />
+    <atom id="57" symbol="O" pos="[0.008168, 0.504084, 0.651488]" info="# O56 O-12k2" />
+    <atom id="58" symbol="O" pos="[0.495916, 0.504084, 0.651488]" info="# O57 O-12k2" />
+    <atom id="59" symbol="O" pos="[0.008168, 0.504084, 0.848512]" info="# O58 O-12k2" />
+    <atom id="60" symbol="O" pos="[0.495916, 0.991832, 0.848512]" info="# O59 O-12k2" />
+    <atom id="61" symbol="O" pos="[0.495916, 0.504084, 0.848512]" info="# O60 O-12k2" />
+    <atom id="62" symbol="O" pos="[0.991832, 0.495916, 0.348512]" info="# O61 O-12k2" />
+    <atom id="63" symbol="O" pos="[0.504084, 0.008168, 0.348512]" info="# O62 O-12k2" />
+    <atom id="64" symbol="O" pos="[0.504084, 0.495916, 0.348512]" info="# O63 O-12k2" />
+  </atomList>
+</molecule>

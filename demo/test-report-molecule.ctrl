@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test Report molecule" />
+  <set verbose = "3" />
+
+  <!-- Read input molecule -->
+  <molecule action="new" method="read" file="Cu.prim.msf" result="mol0" />
+  <molecule action="report" mol="mol0" />
+
+  <kpoint action="new" method="pos" pos="[0.5, 0, 0]" coord="frac" name="M" result="kpt.K" />
+  <kpoint action="report" kpoint="kpt.K" mol="mol0" header="Kpoint.K:" />
+
+  <kpoint action="new" method="pos" pos="[0.3333, 0.3333, 0]" coord="frac" name="K" result="kpt.M" />
+  <kpoint action="report" kpoint="kpt.M" mol="mol0" header="Kpoint.M:" />
+
+</makemol>

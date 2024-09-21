@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test selection of atoms" />
+  <set reportlevel = "3" />
+
+  <!-- Read input molecule -->
+  <readMol file="Hf2S-3x2.msf" format="msf" result="mol0" />
+  <writeMol mol="mol0" file="tmp.vasp" />
+  <readMol file="tmp.vasp" result="mol1" />
+
+  <plane action="new" method="3-atoms" mol="mol1" index="[35, 27, 20]" result="plane1" />
+  <plane action="report" plane="plane1" header="before scaling" />
+  <plane action="check" plane="plane1" item="distance-to-atom" mol="mol1" index="35" />
+  <plane action="check" plane="plane1" item="distance-to-atom" mol="mol1" index="27" />
+  <plane action="check" plane="plane1" item="distance-to-atom" mol="mol1" index="20" />
+  <plane action="check" plane="plane1" item="distance-to-atom" mol="mol1" index="12" />
+  <plane action="check" plane="plane1" item="distance-to-atom" mol="mol1" index="9" />
+  <plane action="scale" plane="plane1" factor="1.01" />
+  <plane action="report" plane="plane1" header="after scaling" />
+  <plane action="new" method="miller" mol="mol1" miller="[0, 1, 1.11632]" result="plane2" />
+  <plane action="report" plane="plane2" header="plane using miller index" />
+
+</makemol>

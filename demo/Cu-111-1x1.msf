@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name></name>
+  <info></info>
+  <lattice method="vectors" pbc="True">
+    <scale value="[1.0, 1.0, 1.0]" />
+    <axis name="a1" vector="[2.560620, 0.000000, 0.000000]" />
+    <axis name="a2" vector="[1.280310, 2.217561, 0.000000]" />
+    <axis name="a3" vector="[0.000000, 0.000000, 6.272212]" />
+  </lattice>
+  <elementList>
+    <element symbol="Cu" radius="1.35" mass="63.546" info="" />
+  </elementList>
+  <atomList coord="cart" >
+    <atom id="1" symbol="Cu" pos="[0.000000, 0.000000, 0.000000]" info="" />
+    <atom id="2" symbol="Cu" pos="[2.560617, 1.478373, 4.181470]" info="" />
+    <atom id="3" symbol="Cu" pos="[1.280313, 0.739188, 2.090735]" info="" />
+  </atomList>
+</molecule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test generate-equivalent-atoms " />
+  <set reportlevel = "3" />
+
+  <!-- Read input molecule -->
+  <read file="Hf2S-partial.vasp" format="vasp" dest="mol0" />
+
+  <!-- Generate equivalent atoms using symmetry operations -->
+  <gen_equiv_atoms mol="mol0" spacegroup="63" />
+
+  <!-- Write output molecule -->
+  <write mol="mol0" file="Hf2S-full.vasp" format="vasp" coord="frac" />
+
+</makemol>

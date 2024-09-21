@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name>Al4</name>
+  <info></info>
+  <lattice method="vectors" pbc="True">
+    <scale value="[1.0, 1.0, 1.0]" />
+    <axis name="a1" vector="[4.038930, 0.000000, 0.000000]" />
+    <axis name="a2" vector="[0.000000, 4.038930, 0.000000]" />
+    <axis name="a3" vector="[0.000000, 0.000000, 4.038930]" />
+  </lattice>
+  <elementList>
+    <element symbol="Al" radius="1.25" mass="26.9815386" info="" />
+  </elementList>
+  <atomList coord="frac" >
+    <atom id="1" symbol="Al" pos="[0.000000, 0.000000, 0.000000]" info="Al" />
+    <atom id="2" symbol="Al" pos="[0.000000, 0.500000, 0.500000]" info="Al" />
+    <atom id="3" symbol="Al" pos="[0.500000, 0.000000, 0.500000]" info="Al" />
+    <atom id="4" symbol="Al" pos="[0.500000, 0.500000, 0.000000]" info="Al" />
+  </atomList>
+</molecule>

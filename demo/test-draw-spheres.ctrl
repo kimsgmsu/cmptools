@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test draw_spheres" />
+  <set verbose = "3" />
+
+  <!-- Read input crystal -->
+  <readMol file="Gd2C.atoms.msf" result="mol10" />
+
+  <!-- Draw spheres -->
+  <drawSpheres mol="mol10" ndim="[100,100,100]" accumulate="True" inverse="False"
+	       file="Gd2C-sphere.vasp" />
+
+</makemol>

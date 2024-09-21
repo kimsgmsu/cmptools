@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test transplation of atoms" />
+  <set verbose = "3" />
+
+  <!-- Read host molecule -->
+  <readMol file="C60.msf" result="mol1" />
+  <writeMol mol="mol1" file="mol1.vasp" coord='frac' />
+  <readMol file="mol1.vasp" result="mol1" />
+
+  <!-- Read guest molecule -->
+  <readMol file="benz2.msf" result="mol2" />
+  <writeMol mol="mol2" file="mol2.vasp" />
+  <readMol file="mol2.vasp" result="mol2" />
+
+  <!-- Set an anchor on the host -->
+  <anchor action="new" method="atom" mol="mol1" atom="[6, 2, 4]" result="anchor1" />
+  <report item="anchor" anchor="anchor1" header="host anchor1" />
+
+  <!-- Set an anchor on the guest -->
+  <anchor action="new" method="atom" mol="mol2" atom="[1, 2, 3]" result="anchor2" />
+  <report item="anchor" anchor="anchor2" header="guest anchor2" />
+
+  <!-- Transplant guest to host -->
+  <attachMol host="mol1" host_anchor="anchor1"
+	     guest="mol2" guest_anchor="anchor2"
+	     overlap="replace" tolerance="0.1"
+	     result="mol3" />
+  <writeMol mol="mol1" file="mol1.0.vasp" />
+
+  <!-- Write output structure -->
+  <writeMol mol="mol3" file="mol3.vasp" />
+
+  <!-- Set an anchor on the host -->
+  <anchor action="new" method="atom" mol="mol1" atom="[11]" direction="[0 0 1]"
+	  scale="1.0" shift="0.0" result="anchor3" add_as_atoms="True" />
+  <report item="anchor" anchor="anchor3" header="host anchor3" />
+  <writeMol mol="mol1" file="mol13.vasp" />
+
+  <!-- Set an anchor on the guest -->
+  <anchor action="new" method="atom" mol="mol2" atom="[7]" direction="[0 -1 0]"
+	  scale="1.0" shift="-1.0" result="anchor4" add_as_atoms="True" />
+  <report item="anchor" anchor="anchor4" header="guest anchor4" />
+  <writeMol mol="mol2" file="mol23.vasp" />
+
+  <!-- Transplant guest to host -->
+  <attachMol host="mol1" host_anchor="anchor3"
+	     guest="mol2" guest_anchor="anchor4"
+	     overlap="discard" tolerance="0.1"
+	     result="mol4" />
+
+  <!-- Write output structure -->
+  <writeMol mol="mol4" file="mol4.vasp" />
+
+</makemol>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name></name>
+  <info></info>
+  <lattice method="vectors">
+    <scale value="1.0" />
+    <axis name="a1" vector="5.656854 0.000000 0.000000" />
+    <axis name="a2" vector="2.828427 4.898979 0.000000" />
+    <axis name="a3" vector="0.000000 0.000000 20.784610" />
+  </lattice>
+  <elementList>
+    <element symbol="Al" radius="1.0" mass="1.0" info="" />
+    <element symbol="C" radius="1.0" mass="1.0" info="" />
+    <element symbol="O" radius="1.0" mass="1.0" info="" />
+    <element symbol="Si" radius="1.0" mass="1.0" info="" />
+  </elementList>
+  <atomList coord="cart" >
+    <atom indx="1" symbol="Al" pos="-2.828424 -1.632991 12.309399" info="" />
+    <atom indx="2" symbol="Al" pos="0.000000 0.000000 10.000000" info="" />
+    <atom indx="3" symbol="Al" pos="2.828424 1.632991 14.618798" info="" />
+    <atom indx="4" symbol="Al" pos="-2.828424 -1.632991 19.237595" info="" />
+    <atom indx="5" symbol="Al" pos="0.000000 0.000000 16.928196" info="" />
+    <atom indx="6" symbol="Al" pos="2.828424 1.632991 0.762405" info="" />
+    <atom indx="7" symbol="C" pos="-1.414216 -0.816498 14.618798" info="" />
+    <atom indx="8" symbol="C" pos="1.414216 0.816498 12.309399" info="" />
+    <atom indx="9" symbol="C" pos="4.242641 2.449489 10.000000" info="" />
+    <atom indx="10" symbol="C" pos="-1.414216 -0.816498 0.762405" info="" />
+    <atom indx="11" symbol="C" pos="1.414216 0.816498 19.237595" info="" />
+    <atom indx="12" symbol="C" pos="4.242641 2.449489 16.928196" info="" />
+    <atom indx="13" symbol="O" pos="1.414211 -0.816498 14.618798" info="" />
+    <atom indx="14" symbol="O" pos="-1.414211 0.816498 12.309399" info="" />
+    <atom indx="15" symbol="O" pos="1.414214 2.449489 10.000000" info="" />
+    <atom indx="16" symbol="O" pos="1.414211 -0.816498 0.762405" info="" />
+    <atom indx="17" symbol="O" pos="-1.414211 0.816498 19.237595" info="" />
+    <atom indx="18" symbol="O" pos="1.414214 2.449489 16.928196" info="" />
+    <atom indx="19" symbol="Si" pos="-0.000003 1.632991 14.618798" info="" />
+    <atom indx="20" symbol="Si" pos="0.000003 -1.632991 12.309399" info="" />
+    <atom indx="21" symbol="Si" pos="2.828427 0.000000 10.000000" info="" />
+    <atom indx="22" symbol="Si" pos="-0.000003 1.632991 0.762405" info="" />
+    <atom indx="23" symbol="Si" pos="0.000003 -1.632991 19.237595" info="" />
+    <atom indx="24" symbol="Si" pos="2.828427 0.000000 16.928196" info="" />
+  </atomList>
+</molecule>

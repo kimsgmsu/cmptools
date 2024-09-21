@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test selection of atoms" />
+  <set reportlevel = "3" />
+
+  <!-- Read input molecule -->
+  <readMol file="Hf2S-3x2.msf" format="msf" result="mol0" />
+
+  <!-- Read input molecule -->
+  <readMol file="SrFe12O19-orig.vasp" format="vasp" result="mol1" />
+
+  <!-- Select atoms -->
+  <select action="new" method="atom" mol="mol1" atom="{2, 7, 19, 13}"
+	  result="sel1" />
+  <report item="selection" sel="sel1" header="sel1: " />
+
+  <select action="add" sel="sel1" mol="mol1" method="atom"
+	  atom="{2, 5, 10, 13, 26}" />
+  <report item="selection" sel="sel1" header="sel1: " />
+
+  <select action="new" method="atom" mol="mol1" atom="{3, 6, 9, 13}"
+	  result="sel2" />
+  <report item="selection" sel="sel2" header="sel2: " />
+
+  <!-- Intersection of sel1 and sel2 -->
+  <select action="intersection" first="sel1" second="sel2" result="sel3" />
+  <report item="selection" sel="sel3" header="sel1.intersection.sel2" />
+
+  <!-- Union of sel1 and sel2 -->
+  <select action="union" first="sel1" second="sel2" result="sel4" />
+  <report item="selection" sel="sel4" header="sel1.union.sel2" />
+
+  <!-- Difference of sel1 and sel2 -->
+  <select action="difference" first="sel1" second="sel2" result="sel5" />
+  <report item="selection" sel="sel5" header="sel1.difference.sel2" />
+
+</makemol>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<makemol>
+  <set title = "Test reportSymmetry " />
+  <set reportlevel = "3" />
+
+  <!-- Read input molecule -->
+  <readMol file="SrFe12O19.msf" format="msf" result="mol0" />
+
+  <!-- report symmetry -->
+  <reportSymmetry mol="mol0" prec="0.001" pcmol="pcmol" />
+
+</makemol>

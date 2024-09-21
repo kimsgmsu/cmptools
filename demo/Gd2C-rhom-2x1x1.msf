@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule>
+  <name>Gd2C-afm1</name>
+  <info></info>
+  <lattice method="vectors">
+    <scale value="6.48793" />
+    <axis name="a1" vector="1.928836 -0.563108 0.000254" />
+    <axis name="a2" vector="0.964418 0.281554 0.000127" />
+    <axis name="a3" vector="0.882157 0.000000 0.480805" />
+  </lattice>
+  <elementList>
+    <element symbol="Gd" radius="1.0" mass="1.0" info="" />
+    <element symbol="C" radius="1.0" mass="1.0" info="" />
+    <element symbol="X" radius="1.0" mass="1.0" info="" />
+  </elementList>
+  <atomList coord="frac" >
+    <atom indx="1" symbol="Gd" pos="0.130297 0.260594 0.260594" info="" />
+    <atom indx="2" symbol="Gd" pos="0.369703 0.739407 0.739407" info="" />
+    <atom indx="3" symbol="C" pos="0.500000 1.000000 1.000000" info="" />
+    <atom indx="4" symbol="X" pos="0.250000 0.500000 0.500000" info="" />
+    <atom indx="5" symbol="Gd" pos="0.630297 0.260594 0.260594" info="" />
+    <atom indx="6" symbol="Gd" pos="0.869703 0.739407 0.739407" info="" />
+    <atom indx="7" symbol="C" pos="1.000000 1.000000 1.000000" info="" />
+    <atom indx="8" symbol="X" pos="0.750000 0.500000 0.500000" info="" />
+  </atomList>
+</molecule>
